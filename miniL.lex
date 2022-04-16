@@ -85,7 +85,6 @@ IDENT_SUerror [_]({DIGIT}|[_])*{IDENT}*
 . {printf("Error at line %d, column %d: unrecognized symbol \"%s\"\n", currLine, currPos, yytext); return;}
 
 %%
-	/* C functions used in lexer */
 
 int main(int argc, char ** argv)
 {
